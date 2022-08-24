@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>eCommerceWebsite</title>
+</head>
+<body>
+
+
+    <!--------------- main container --------------->
+    <div class="container mx-auto">
+        <!--------------- navbar section --------------->
+        <div class="navbar-section md:flex flex-row justify-between font-bold  mt-2 px-4">
+            <!-- left div = logo-->
+            <div class="left flex justify-center mb-3">
+                <div class="w-8 h-8 bg-gradient-to-r from-purple-400 to-red-400 rounded-md"></div>
+                <span class="ml-3 text-lg mt-1 text-gray-500">LoGo</span>
+            </div>
+            <!-- right div = links-->
+            <div class="right mt-2 text-gray-500">
+                <ul class="flex space-x-7 justify-center">
+                    <a class="hover:text-purple-900 cursor-pointer hover:underline mt-1">Home</a>
+                    <a class="hover:text-purple-900 cursor-pointer hover:underline mt-1">Shop</a>
+                    <a class="hover:text-purple-900 cursor-pointer hover:underline mt-1">Blog</a>
+                    <a class="hover:text-purple-900 cursor-pointer hover:underline mt-1">Contact</a>
+                    <a class="flex bg-purple-600 hover:bg-purple-700 text-sm rounded-lg text-white cursor-pointer py-2 px-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                          </svg>
+                        &nbsp; Cart (0)
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <!--------------- hero section --------------->
+        <div class="hero-section md:flex justify-between mt-14">
+            <!-- content div -->
+            <div class="left flex flex-col justify-center ml-7 mb-10">
+                <h2 class="font-saraf text-4xl md:text-5xl text-gray-600 font-bold mb-3 text-center md:text-start">Some Catchy title here</h2>
+                <p class="uppercase text-gray-500 tracking-wide font-semibold text-center md:text-start">Our brand TagLine goes here.</p>
+                <p class="uppercase text-gray-500 tracking-wide  font-semibold text-center md:text-start">Our Motto goes here.</p>
+                <a class="self-start bg-gradient-to-r from-red-600 to-pink-500 rounded-full text-white text-xl cursor-pointer mt-4 py-3 px-7 mx-auto md:mx-0">Shop Now</a>
+            </div>
+            <!-- img div -->
+            <div class="right">
+                <img class="max-w-md md:max-w-2xl" src="./images/hero-img.svg" alt="">
+            </div>
+        </div>
+
+
+
+
+        <!--------------- MALE COLLECTION --------------->
+        <div class="product-section my-20 px-7">
+            <!-- men's collection HEADING and view all -->
+            <div class="flex justify-between">
+                <h1 class="text-2xl font-bold">Men's Collection</h1>
+                <a class="flex hover:cursor-pointer hover:text-purple-800 mt-1.5">View all
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-1 mt-[0.05rem]">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                    </svg>                      
+                </a>
+            </div>
+            <!-- shoppinig items div -->
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-10 mt-5">
+                <div class="shadow-xl rounded-lg">
+                    <a><img class ="rounded-tl-lg rounded-tr-lg" src="./images/m1.jpg" alt=""></a>
+                    <div class="p-5">
+                        <h2><a>Men's T-Shirt</a></h2>
+                        <!-- colors div -->
+                        <div class="colors flex mt-2 space-x-3">
+                            <div class="bg-black border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-blue-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-white border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-red-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-green-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                        </div>
+                        <!-- sizes -->
+                        <div class="sizes flex justify-evenly mt-4">
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XL</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">L</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">MD</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">S</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XS</div>
+                        </div>
+                        <!-- buttons -->
+                        <div class="buttons flex flex-col justify-between mt-3">
+                            <button class="justify-center flex bg-gradient-to-r from-red-600 to-pink-500 text-white text-sm rounded-3xl py-3 px-7 lg:py-2 lg:px-3 mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mt-0.5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>
+                                Add to Cart
+                            </button>
+                            <button class="justify-center flex bg-purple-600 hover:bg-purple-700 text-white text-sm rounded-3xl py-3 px-9 lg:py-2 lg:px-3 mt-2">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-xl rounded-lg">
+                    <a><img class ="rounded-tl-lg rounded-tr-lg" src="./images/m2.jpg" alt=""></a>
+                    <div class="p-5">
+                        <h2><a>Slim Khaki Trouser</a></h2>
+                        <!-- colors div -->
+                        <div class="colors flex mt-2 space-x-3">
+                            <div class="bg-black border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-blue-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-white border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-red-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-green-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                        </div>
+                        <!-- sizes -->
+                        <div class="sizes flex justify-evenly mt-4">
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XL</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">L</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">MD</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">S</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XS</div>
+                        </div>
+                        <!-- buttons -->
+                        <div class="buttons flex flex-col justify-between mt-3">
+                            <button class="justify-center flex bg-gradient-to-r from-red-600 to-pink-500 text-white text-sm rounded-3xl py-3 px-7 lg:py-2 lg:px-3 mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mt-0.5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>
+                                Add to Cart
+                            </button>
+                            <button class="justify-center flex bg-purple-600 hover:bg-purple-700 text-white text-sm rounded-3xl py-3 px-9 lg:py-2 lg:px-3 mt-2">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-xl rounded-lg">
+                    <a><img class ="rounded-tl-lg rounded-tr-lg" src="./images/m3.jpg" alt=""></a>
+                    <div class="p-5">
+                        <h2><a>Nike Shoes</a></h2>
+                        <!-- colors div -->
+                        <div class="colors flex mt-2 space-x-3">
+                            <div class="bg-black border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-blue-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-white border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-red-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-green-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                        </div>
+                        <!-- sizes -->
+                        <div class="sizes flex justify-evenly mt-4">
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XL</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">L</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">MD</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">S</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XS</div>
+                        </div>
+                        <!-- buttons -->
+                        <div class="buttons flex flex-col justify-between mt-3">
+                            <button class="justify-center flex bg-gradient-to-r from-red-600 to-pink-500 text-white text-sm rounded-3xl py-3 px-7 lg:py-2 lg:px-3 mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mt-0.5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>
+                                Add to Cart
+                            </button>
+                            <button class="justify-center flex bg-purple-600 hover:bg-purple-700 text-white text-sm rounded-3xl py-3 px-9 lg:py-2 lg:px-3 mt-2">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-xl rounded-lg">
+                    <a><img class ="rounded-tl-lg rounded-tr-lg" src="./images/m4.jpg" alt=""></a>
+                    <div class="p-5">
+                        <h2><a>Wrist Watch</a></h2>
+                        <!-- colors div -->
+                        <div class="colors flex mt-2 space-x-3">
+                            <div class="bg-black border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-blue-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-white border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-red-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-green-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                        </div>
+                        <!-- sizes -->
+                        <div class="sizes flex justify-evenly mt-4">
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XL</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">L</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">MD</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">S</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XS</div>
+                        </div>
+                        <!-- buttons -->
+                        <div class="buttons flex flex-col justify-between mt-3">
+                            <button class="justify-center flex bg-gradient-to-r from-red-600 to-pink-500 text-white text-sm rounded-3xl py-3 px-7 lg:py-2 lg:px-3 mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mt-0.5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>
+                                Add to Cart
+                            </button>
+                            <button class="justify-center flex bg-purple-600 hover:bg-purple-700 text-white text-sm rounded-3xl py-3 px-9 lg:py-2 lg:px-3 mt-2">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- FEMALE COLLECTION -->
+        <div class="female-product-section my-20 px-7">
+            <!-- men's collection HEADING and view all -->
+            <div class="flex justify-between">
+                <h1 class="text-2xl font-bold">Women's Collection</h1>
+                <a class="flex hover:cursor-pointer hover:text-purple-800 mt-1.5">View all
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-1 mt-[0.05rem]">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                    </svg>                      
+                </a>
+            </div>
+            <!-- shoppinig items div -->
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-10 mt-5">
+                <div class="shadow-xl rounded-lg">
+                    <a><img class ="rounded-tl-lg rounded-tr-lg" src="./images/f1.jpg" alt=""></a>
+                    <div class="p-5">
+                        <h2><a>V Neck Tassel Cape</a></h2>
+                        <!-- colors div -->
+                        <div class="colors flex mt-2 space-x-3">
+                            <div class="bg-black border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-blue-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-white border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-red-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-green-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                        </div>
+                        <!-- sizes -->
+                        <div class="sizes flex justify-evenly mt-4">
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XL</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">L</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">MD</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">S</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XS</div>
+                        </div>
+                        <!-- buttons -->
+                        <div class="buttons flex flex-col justify-between mt-3">
+                            <button class="justify-center flex bg-gradient-to-r from-red-600 to-pink-500 text-white text-sm rounded-3xl py-3 px-7 lg:py-2 lg:px-3 mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mt-0.5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>
+                                Add to Cart
+                            </button>
+                            <button class="justify-center flex bg-purple-600 hover:bg-purple-700 text-white text-sm rounded-3xl py-3 px-9 lg:py-2 lg:px-3 mt-2">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-xl rounded-lg">
+                    <a><img class ="rounded-tl-lg rounded-tr-lg" src="./images/f2.jpg" alt=""></a>
+                    <div class="p-5">
+                        <h2><a>Printed Wrap Dress</a></h2>
+                        <!-- colors div -->
+                        <div class="colors flex mt-2 space-x-3">
+                            <div class="bg-black border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-blue-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-white border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-red-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-green-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                        </div>
+                        <!-- sizes -->
+                        <div class="sizes flex justify-evenly mt-4">
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XL</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">L</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">MD</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">S</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XS</div>
+                        </div>
+                        <!-- buttons -->
+                        <div class="buttons flex flex-col justify-between mt-3">
+                            <button class="justify-center flex bg-gradient-to-r from-red-600 to-pink-500 text-white text-sm rounded-3xl py-3 px-7 lg:py-2 lg:px-3 mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mt-0.5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>
+                                Add to Cart
+                            </button>
+                            <button class="justify-center flex bg-purple-600 hover:bg-purple-700 text-white text-sm rounded-3xl py-3 px-9 lg:py-2 lg:px-3 mt-2">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-xl rounded-lg">
+                    <a><img class ="rounded-tl-lg rounded-tr-lg" src="./images/f3.jpg" alt=""></a>
+                    <div class="p-5">
+                        <h2><a>Blue Denim Dress</a></h2>
+                        <!-- colors div -->
+                        <div class="colors flex mt-2 space-x-3">
+                            <div class="bg-black border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-blue-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-white border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-red-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-green-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                        </div>
+                        <!-- sizes -->
+                        <div class="sizes flex justify-evenly mt-4">
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XL</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">L</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">MD</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">S</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XS</div>
+                        </div>
+                        <!-- buttons -->
+                        <div class="buttons flex flex-col justify-between mt-3">
+                            <button class="justify-center flex bg-gradient-to-r from-red-600 to-pink-500 text-white text-sm rounded-3xl py-3 px-7 lg:py-2 lg:px-3 mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mt-0.5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>
+                                Add to Cart
+                            </button>
+                            <button class="justify-center flex bg-purple-600 hover:bg-purple-700 text-white text-sm rounded-3xl py-3 px-9 lg:py-2 lg:px-3 mt-2">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-xl rounded-lg">
+                    <a><img class ="rounded-tl-lg rounded-tr-lg" src="./images/f4.jpg" alt=""></a>
+                    <div class="p-5">
+                        <h2><a>High Waist Skirt</a></h2>
+                        <!-- colors div -->
+                        <div class="colors flex mt-2 space-x-3">
+                            <div class="bg-black border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-blue-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-white border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-red-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                            <div class="bg-green-700 border border-black cursor-pointer w-4 h-4 rounded-full"></div>
+                        </div>
+                        <!-- sizes -->
+                        <div class="sizes flex justify-evenly mt-4">
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XL</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">L</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">MD</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">S</div>
+                            <div class="border-2 border-gray-300 hover:border-gray-500 rounded-md text-xs text-gray-400 cursor-pointer px-2 py-1">XS</div>
+                        </div>
+                        <!-- buttons -->
+                        <div class="buttons flex flex-col justify-between mt-3">
+                            <button class="justify-center flex bg-gradient-to-r from-red-600 to-pink-500 text-white text-sm rounded-3xl py-3 px-7 lg:py-2 lg:px-3 mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mt-0.5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>
+                                Add to Cart
+                            </button>
+                            <button class="justify-center flex bg-purple-600 hover:bg-purple-700 text-white text-sm rounded-3xl py-3 px-9 lg:py-2 lg:px-3 mt-2">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--------------- Newsletter Section --------------->
+        <div class="newsletter-section flex shadow-lg mt-12 px-5">
+            <!-- left div --- CONTENT PART -->
+            <div class="left lg:w-3/5 w-full rounded-lg bg-gradient-to-r from-black to-purple-900 lg:from-black lg:via-purple-900 lg:to-transparent text-gray-200 p-12">
+                <div class="lg:w-1/2">
+                    <h2 class="text-2xl font-extrabold mb-5">Subscribe to get our offers.</h2>
+                    <p class="leading-relaxed mb-5">Want to hear from us when we have new offers? Sign up for our newsletter and we'll email you every time we have new sale offers.</p>
+                    <div class="input-email">
+                        <input class="w-full rounded-md p-3 outline-none text-black" type="email" placeholder="Enter your email...">
+                        <input class="bg-red-600 rounded-full cursor-pointer mt-4 w-full text-lg px-3 py-2" type="submit" value="Submit">
+                    </div>
+                </div>
+            </div>
+            <!-- right div --- IMAGE PART -->
+            <div class="right lg:w-2/5 lg:flex hidden">
+                <img class="h-96" src="./images/subscribe-banner.png" alt="">
+            </div>
+        </div>
+
+
+
+        <!--------------- FOOTER SECTION --------------->
+        <div class="footer-section border-t-2 border-gray-300 flex lg:flex-row flex-col text-center lg:justify-between mt-10 py-5 px-5">
+            <div class="links space-x-8 mb-4">
+                <a class="hover:text-purple-700 hover:underline" href="">About</a>
+                <a class="hover:text-purple-700 hover:underline" href="">Privacy Policy</a>
+                <a class="hover:text-purple-700 hover:underline" href="">Terms & Services</a>
+            </div>
+            <p>&copy; Copyright Reserved 2022.</p>
+        </div>
+
+    </div>
+</body>
+</html>
